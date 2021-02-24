@@ -74,7 +74,7 @@ public class Test {
         System.out.println(DateUtil.tomorrow());
         System.out.println();*/
       for (PayMethod pm:PayMethod.values()){
-          System.out.println("直接变量，支付方式->"+pm);
+          System.out.println("间接变量，支付方式->"+pm);
       }
         EnumMap<PayMethod, String> payMethodStringEnumMap = new EnumMap<>(PayMethod.class);
         payMethodStringEnumMap.put(PayMethod.月付30天,"to support");
